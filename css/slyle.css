@@ -694,18 +694,23 @@ img {
 }
 
 .review-btn-submit {
-  width: 169px;
+  min-width: 169px;
   padding: 16px, 32px;
   border-radius: 4px;
   border: none;
   background-color: var(--logo-color);
-  color: #f4f4fd;
+  color: #ffffff;
   margin: 0 auto;
   padding: 16px, 32px;
   min-height: 56px;
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .review-form-own {
   width: 16px;
@@ -720,5 +725,6 @@ img {
   justify-content: center;
   fill: transparent;
 }
-.check {
+.clink-privacy {
+  color: var(--logo-color);
 }
