@@ -525,12 +525,12 @@ img {
   letter-spacing: 0.04em;
   cursor: pointer;
 }
-.btn-subscribe-box {
+/*.btn-subscribe-box {
   position: relative;
-}
+}*/
 
 .icon-subscribe {
-  position: absolute;
+  /*position: absolute;*/
   right: 16px;
   top: 8px;
   fill: #ffffff;
